@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+:root{
+    --primary-color: #7C3AED;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    margin: 2rem 0rem;
 }
 
 /* container */
@@ -22,14 +30,20 @@ body {
 
 .link-primary {
     background-color: var(--primary-color);
-    border-radius: 1rem;
+    border-radius: 0.5rem;
+    color: white;
 }
 
-/* .link-secondary {
+.link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
-    border:1px solid var
-    (--primary-color);
-} */
+    border: 1px solid var(--primary-color);
+}
 
-/** look into BEM naming convention for CSS **/
+/** Look into BEM naming convention for CSS **/
+
+/* Lists */
+
+.list-non-bullet{
+    list-style: none;
+}
