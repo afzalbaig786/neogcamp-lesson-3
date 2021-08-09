@@ -30,8 +30,8 @@ hr {
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    /* margin-top: 5rem;
+    margin-bottom: 1rem; */
 }
 
 .link-primary {
@@ -43,7 +43,7 @@ hr {
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
-    border: 1px solidvar(--primary-color);
+    border: 1px solid var(--primary-color);
 }
 
 /** Look into BEM naming convention for CSS **/
